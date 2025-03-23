@@ -1,2 +1,2 @@
-# ogd_harmonizR
-Repo for an R package that will help standardising and harmonizing Open Government Data in Switzerland
+# Capstone Project Data Mining Course at Uni Lucerne, FS25
+Capstone Project Data Harmonisation Algorithms for Open Government Data
