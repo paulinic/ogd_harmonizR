@@ -10,3 +10,9 @@ an R package that will support Data Scientists in working with Open Government D
 The data will be collected from the Swiss Open Government Data portal opendata.swiss. 
 
 ## Methods
+With the help of the LLM Claude by Anthropic AI, function scripts were created to inspect, harmonize and link the different data sets found on opendata.swiss. 
+
+## Testing 
+
+# Unit Tests with testthat package
+Link to the testthat package: https://testthat.r-lib.org/ 
