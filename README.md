@@ -14,5 +14,5 @@ With the help of the LLM Claude by Anthropic AI, function scripts were created t
 
 ## Testing 
 
-# Unit Tests with testthat package
-Link to the testthat package: https://testthat.r-lib.org/ 
+### Unit Tests with testthat package
+Link to the testthat package: https://testthat.r-lib.org/   

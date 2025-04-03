@@ -54,3 +54,5 @@ test_check("harmonizeR")
 # Create a simple fixture file for testing file detection
 write.csv(data.frame(id = 1:5, name = c("A", "B", "C", "D", "E")),
           "tests/fixtures/sample.csv")
+
+devtools::test() 
