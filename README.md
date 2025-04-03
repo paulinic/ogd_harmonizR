@@ -17,8 +17,9 @@ With the help of the LLM Claude by Anthropic AI, function scripts were created t
 ### Unit Tests with testthat package
 Link to the testthat package: https://testthat.r-lib.org/ For the testing there were different test scripts wirtten. For testing the utility functions, the inspecting functions and the harmonization functions, the testthat package was used. 
 The testthat package is a powerful and flexible testing framework for R. It provides a set of functions to write unit tests, integration tests, and other types of tests for R code. The testthat package is widely used in the R community and is a standard tool for testing R packages.
-The tests seem to be successfull. 
+The tests seem to be successful. 
 
 ### Integration Tests with testthat package 
 
 ## Packaging the R package 
+The package is structured in a way that allows for easy installation and use. The package includes a DESCRIPTION file, which contains metadata about the package, such as its name, version, author, and dependencies. The package also includes a NAMESPACE file, which specifies the functions and objects that are exported from the package. The package is organized into subdirectories, each containing R scripts that define the functions and objects in the package. The package also includes a README file, which provides an overview of the package and its functionality.
