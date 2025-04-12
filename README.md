@@ -10,7 +10,8 @@ an R package that will support Data Scientists in working with Open Government D
 The data will be collected from the Swiss Open Government Data portal opendata.swiss. 
 
 ## Methods
-With the help of the LLM Claude by Anthropic AI, function scripts were created to inspect, harmonize and link the different data sets found on opendata.swiss. 
+With the help of the LLM Claude by Anthropic AI, function scripts were created to inspect, harmonize and link the different data sets found on opendata.swiss. The LLM also supported in building the package, us9ng the devtools package.The package itself 
+is written in R and being built with the tool R Studio. 
 
 ## Testing 
 
@@ -20,6 +21,7 @@ The testthat package is a powerful and flexible testing framework for R. It prov
 The tests seem to be successful. 
 
 ### Integration Tests with testthat package 
+to be done 
 
 ## Packaging the R package 
 The package is structured in a way that allows for easy installation and use. The package includes a DESCRIPTION file, which contains metadata about the package, such as its name, version, author, and dependencies. The package also includes a NAMESPACE file, which specifies the functions and objects that are exported from the package.
