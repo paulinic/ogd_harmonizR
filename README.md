@@ -7,7 +7,7 @@ The challenge still is, that there are different data types, three national lang
 an R package that will support Data Scientists in working with Open Government Data. The packages allows the user to inspect, harmonize and link data sets in R. 
 
 ## Data
-The data will be collected from the Swiss Open Government Data portal opendata.swiss. 
+The data will be collected from the Swiss Open Government Data portal opendata.swiss. The script "simplified_opendata_api" is offering different methods to download a number of data sets from the API. 
 
 ## Methods
 With the help of the LLM Claude by Anthropic AI, function scripts were created to inspect, harmonize and link the different data sets found on opendata.swiss. The LLM also supported in building the package, us9ng the devtools package.The package itself 
@@ -31,6 +31,6 @@ The package is organized into subdirectories, each containing R scripts that def
 The package is designed to be easy to install and use. The package can be installed from GitHub using the devtools package. The package can not yet be installed from CRAN using the install.packages function.
 
 
-### Comining Git Repositories
+### Combining Git Repositories
 For the first part of the project, the author worked in a different Github repository. The author then created a new repository for the second part of the projec and to get more structure as well as more order in the repo itself. 
 The author then combined the two repositories into one as not to loose all the commits done in the first repository. The author used the following instructions to combine the two repositories: https://gist.github.com/msrose/2feacb303035d11d2d05

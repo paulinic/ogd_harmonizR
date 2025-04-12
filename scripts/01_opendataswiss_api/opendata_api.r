@@ -13,7 +13,7 @@ for(package in required_packages) {
 }
 
 # Create a directory structure
-main_dir <- "swiss_open_data_full"
+main_dir <- "testdata_full"
 dirs <- c("raw", "metadata", "logs")
 
 # Create main directory and subdirectories
@@ -267,7 +267,7 @@ download_dataset <- function(dataset_id) {
 # 8. Download a sample (first 10 datasets) to test
 
 # Function to discover and download datasets from opendata.swiss
-discover_and_download <- function(num_datasets = 10) {
+discover_and_download <- function(num_datasets = 50) {
   # Install and load required packages
   if (!require("httr")) install.packages("httr")
   if (!require("jsonlite")) install.packages("jsonlite")
@@ -275,7 +275,7 @@ discover_and_download <- function(num_datasets = 10) {
   library(jsonlite)
   
   # Create directories
-  main_dir <- "swiss_opendata_samples"
+  main_dir <- "opendata_testfiles"
   raw_dir <- file.path(main_dir, "raw")
   metadata_dir <- file.path(main_dir, "metadata")
   
